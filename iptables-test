@@ -1,0 +1,8 @@
+#!/bin/bash
+iptables=/sbin/iptables
+if [ -f $iptables ];then
+    echo "Iptables exist."
+else
+    echo "Iptables is not a file."
+fi
+    
